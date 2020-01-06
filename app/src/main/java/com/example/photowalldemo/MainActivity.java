@@ -27,6 +27,9 @@ public class MainActivity extends AppCompatActivity {
         adapter = new PhotoWallAdapter(this, 0, Images.imageThumbUrls, mPhotoWall);
         mPhotoWall.setAdapter(adapter);
 
+        // LruCache和DiskLruCache完美结合
+
+
     }
 
     @Override
